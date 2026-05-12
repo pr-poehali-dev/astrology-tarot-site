@@ -473,7 +473,7 @@ export default function Index() {
             <div>
               <p className="text-xs uppercase tracking-[0.4em] text-gold/60 mb-4 font-body">Обо мне</p>
               <h2 className="font-display text-5xl md:text-6xl text-gold-light mb-6 leading-tight">
-                Анастасия<br />
+                Екатерина<br />
                 <span className="italic text-gold">Светлова</span>
               </h2>
               <div className="w-16 h-px bg-gold mb-8" />
@@ -499,7 +499,7 @@ export default function Index() {
                 ))}
               </div>
               <button onClick={() => setBookingOpen(true)} className="btn-gold px-8 py-3 rounded-full text-xs">
-                Записаться к Анастасии
+                Записаться к Екатерине
               </button>
             </div>
           </div>
@@ -722,7 +722,7 @@ export default function Index() {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="font-display text-lg text-gold/70">✦ Небесные Откровения</div>
           <div className="text-xs text-foreground/30 font-body text-center">
-            © 2026 Анастасия Светлова · Все права защищены
+            © 2026 Екатерина Светлова · Все права защищены
           </div>
           <div className="flex gap-4 flex-wrap justify-center">
             {NAV_ITEMS.slice(0, 4).map((item) => (
